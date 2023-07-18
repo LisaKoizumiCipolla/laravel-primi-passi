@@ -6,16 +6,18 @@
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello world!</h1>
+    <h1>ポケモン、ゲットだぜ！</h1>
 
+    @foreach ($pokemons as $pokemon)
     <h2>
-        {{ $name }}
+        {{ $pokemon['name'] }}
     </h2>
     <div>
-        {{ $type1 }}
+        {{ $pokemon['type1'] }}
     </div>
     <div>
-        {{ $type2 }}
+        {{ $pokemon['type2'] }}
     </div>
+    @endforeach
 </body>
 </html>
