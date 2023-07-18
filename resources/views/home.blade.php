@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>Hello world!</h1>
+
+    <h2>
+        {{ $name }}
+    </h2>
+    <div>
+        {{ $type1 }}
+    </div>
+    <div>
+        {{ $type2 }}
+    </div>
 </body>
 </html>

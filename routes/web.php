@@ -14,5 +14,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+
+    $pokemon = [
+        'name' => 'ルギア',
+        'type1' => 'エスパー',
+        'type2' => 'ひこう'
+    ];
+
+
+    return view('home', $pokemon);
 });
