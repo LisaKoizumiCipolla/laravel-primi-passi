@@ -7,17 +7,24 @@
 </head>
 <body>
     <h1>ポケモン、ゲットだぜ！</h1>
-
-    @foreach ($pokemons as $pokemon)
-    <h2>
-        {{ $pokemon['name'] }}
-    </h2>
-    <div>
-        {{ $pokemon['type1'] }}
-    </div>
-    <div>
-        {{ $pokemon['type2'] }}
-    </div>
-    @endforeach
+    
+    <ul>
+        <li>
+            <a href="{{ route('first-team') }}">
+                First team
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('second-team') }}">
+                Second team
+            </a>
+        </li>
+        <li>
+            <a href="{{ route('third-team') }}">
+                Third team
+            </a>
+        </li>
+    </ul>
+    
 </body>
 </html>
