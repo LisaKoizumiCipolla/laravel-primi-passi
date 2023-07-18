@@ -7,6 +7,8 @@
 </head>
 <body>
     <h1>第三チーム</h1>
+    <br>
+    <h1>Third team</h1>
 
     @foreach ($pokemons as $pokemon)
     <h2>

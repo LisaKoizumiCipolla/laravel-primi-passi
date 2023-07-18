@@ -24,29 +24,29 @@ Route::get('/first-team', function () {
 
     $data = [
         'pokemons' => [
-            [   'name' => 'ルギア',
-                'type1' => 'エスパー',
-                'type2' => 'ひこう'
+            [   'name' => 'ルギア (Lugia)',
+                'type1' => 'エスパー (Pshyco)',
+                'type2' => 'ひこう (Flight)'
             ],
-            [   'name' => 'リザードン',
-                'type1' => 'ほのう',
-                'type2' => 'ひこう'
+            [   'name' => 'リザードン (Charizard (Originally Rizaadon))',
+                'type1' => 'ほのう (Fire)',
+                'type2' => 'ひこう (Flight)'
             ],
-            [   'name' => 'キノガッサ',
-                'type1' => 'くさ',
-                'type2' => 'かくとう'
+            [   'name' => 'キノガッサ (Breloom (Originally Kinogassa))',
+                'type1' => 'くさ (Grass)',
+                'type2' => 'かくとう (Fighting)'
             ],
-            [   'name' => 'エーフィー',
-                'type1' => 'エスパー',
+            [   'name' => 'エーフィー (Espeon (Originally Eefii))',
+                'type1' => 'エスパー (Psychic)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'オーダイル',
-                'type1' => 'みず',
+            [   'name' => 'オーダイル (Feraligator (Originally Oodairu))',
+                'type1' => 'みず (Water)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'バンギラス',
-                'type1' => 'いわ',
-                'type2' => 'あく'
+            [   'name' => 'バンギラス (Tyranitar (Originally Bangyrasu))',
+                'type1' => 'いわ (Rock)',
+                'type2' => 'あく (Dark)'
             ]
         ]
     ];
@@ -61,28 +61,28 @@ Route::get('/second-team', function () {
 
     $data = [
         'pokemons' => [
-            [   'name' => 'キュウコン',
-                'type1' => 'ほのう',
+            [   'name' => 'キュウコン (Ninetales(Originally Kyuukon))',
+                'type1' => 'ほのう (Fire)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'シャワーズ',
-                'type1' => 'みず',
+            [   'name' => 'シャワーズ (Vaporeon (Originally Shawaazu))',
+                'type1' => 'みず (Water)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'ブラッキー',
-                'type1' => 'あく',
+            [   'name' => 'ブラッキー (Umbreon (Originally Buracky)',
+                'type1' => 'あく (Dark)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'ラプラス',
-                'type1' => 'みず',
-                'type2' => 'こおり'
+            [   'name' => 'ラプラス (Lapras)',
+                'type1' => 'みず (Water)',
+                'type2' => 'こおり (Ice)'
             ],
-            [   'name' => 'ミュウ',
-                'type1' => 'エスパー',
+            [   'name' => 'ミュウ (Mew)',
+                'type1' => 'エスパー (Psychic)',
                 'type2' => 'ｘ'
             ],
-            [   'name' => 'イーブイ',
-                'type1' => 'ノーマル',
+            [   'name' => 'イーブイ (Eevee)',
+                'type1' => 'ノーマル (Normal)',
                 'type2' => 'ｘ'
             ]
         ]
@@ -96,29 +96,29 @@ Route::get('/third-team', function () {
 
     $data = [
         'pokemons' => [
-            [   'name' => 'セレビィ',
-                'type1' => 'エスパー',
-                'type2' => 'くさ'
+            [   'name' => 'セレビィ (Celeby)',
+                'type1' => 'エスパー (Psychic)',
+                'type2' => 'くさ (Grass)'
             ],
-            [   'name' => 'レックウザ',
-                'type1' => 'ドラゴン',
-                'type2' => 'ひこう'
+            [   'name' => 'レックウザ (Rayquaza)',
+                'type1' => 'ドラゴン (Dragon)',
+                'type2' => 'ひこう (Flight)'
             ],
-            [   'name' => 'アーマルド',
-                'type1' => 'いわ',
-                'type2' => 'むし'
+            [   'name' => 'アーマルド (Armaldo)',
+                'type1' => 'いわ (Rock)',
+                'type2' => 'むし (Insect)'
             ],
-            [   'name' => 'フライゴン',
-                'type1' => 'じめん',
-                'type2' => 'ドラゴン'
+            [   'name' => 'フライゴン (Fygon)',
+                'type1' => 'じめん (Earth)',
+                'type2' => 'ドラゴン (Dragon)'
             ],
-            [   'name' => 'ラティオス',
-                'type1' => 'ドラゴン',
-                'type2' => 'エスパー'
+            [   'name' => 'ラティオス (Latios)',
+                'type1' => 'ドラゴン (Dragon)',
+                'type2' => 'エスパー (Psychic)'
             ],
-            [   'name' => 'ラティアス',
-                'type1' => 'ドラゴン',
-                'type2' => 'エスパー'
+            [   'name' => 'ラティアス (Latias)',
+                'type1' => 'ドラゴン (Dragon)',
+                'type2' => 'エスパー (Psychic)'
             ]
         ]
     ];
